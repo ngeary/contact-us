@@ -1,0 +1,25 @@
+<form [formGroup]="submissionForm" (ngSubmit)="onSubmit()">
+  
+  <label>
+    <input type="text" formControlName="email" placeholder="Email address" required>
+  </label>
+
+  <label>
+    <input type="text" formControlName="subject" placeholder="Subject" required>
+  </label>
+
+  <label>
+    <textarea type="text" formControlName="body" placeholder="Message" required></textarea>
+  </label>
+
+  <button type="submit" [disabled]="!submissionForm.valid">Submit</button>
+
+  <ngb-alert *ngIf="error" [dismissible]="false" type="danger">
+    <strong>An error occurred.</strong> Please try again later.
+  </ngb-alert>
+
+  <ngb-alert *ngIf="response" [dismissible]="false" type="success">
+    <strong>Success!</strong> We have received your message.
+  </ngb-alert>
+
+</form>

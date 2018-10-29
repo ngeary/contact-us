@@ -1,0 +1,51 @@
+/* SubmissionForm component's private CSS styles */
+:host {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+}
+
+label {
+  display: block;
+  width: 6em;
+  margin: .5em 0;
+  color: #000000;
+  font-weight: bold;
+}
+
+textarea {
+  width: 30em;
+  height: 10em;
+  font-size: 1em;
+  padding-left: .4em;
+}
+
+input {
+  width: 30em;
+  height: 2em;
+  font-size: 1em;
+  padding-left: .4em;
+}
+
+button {
+  background-color: #005bb7;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003366;
+}
+
+button:disabled {
+  background-color: #c8c8c8;
+  color: #969696;
+  cursor: auto;
+}
+
+ngb-alert {
+  margin: 10px; 
+}
