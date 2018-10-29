@@ -1,4 +1,4 @@
-# ContactUs
+# Contact Us
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
@@ -13,6 +13,26 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+### Dependencies
+
+* @angular/animations 7.0.1
+* @angular/common 7.0.1
+* @angular/compiler 7.0.1
+* @angular/core 7.0.1
+* @angular/forms 7.0.1
+* @angular/http 7.0.1
+* @angular/platform-browser 7.0.1
+* @angular/platform-browser-dynamic 7.0.1
+* @angular/router 7.0.1
+* @ng-bootstrap/ng-bootstrap 4.0.0
+* @types/jasmine 2.8.9
+* @types/jasminewd2 2.0.5
+* @types/node 8.9.5
+* bootstrap 4.1.3
+* core-js 2.5.7
+* rxjs 6.3.3
+* zone.js 0.8.26
 
 ## Running unit tests
 
