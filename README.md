@@ -5,15 +5,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Screenshots
 
 <figure>
-  <img src="https://raw.githubusercontent.com/ngeary/contact-us/blob/master/src/assets/screenshots/contact-us-01.png" alt="image"/>
+  <img src="https://raw.githubusercontent.com/ngeary/contact-us/master/src/assets/screenshots/contact-us-01.png" alt="image"/>
 </figure>
 
 <figure>
-  <img src="https://raw.githubusercontent.com/ngeary/contact-us/blob/master/src/assets/screenshots/contact-us-02.png" alt="image"/>
+  <img src="https://raw.githubusercontent.com/ngeary/contact-us/master/src/assets/screenshots/contact-us-02.png" alt="image"/>
 </figure>
 
 <figure>
-  <img src="https://raw.githubusercontent.com/ngeary/contact-us/blob/master/src/assets/screenshots/contact-us-03.png" alt="image"/>
+  <img src="https://raw.githubusercontent.com/ngeary/contact-us/master/src/assets/screenshots/contact-us-03.png" alt="image"/>
 </figure>
 
 ## Development server
